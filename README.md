@@ -1,2 +1,2 @@
 # chiBang
-simple godot project with vihicle stering
+simple godot project with vehicle sterling
