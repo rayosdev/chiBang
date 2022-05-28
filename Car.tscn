@@ -1,4 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/Car Model.tscn" type="PackedScene" id=1]
 
 [sub_resource type="PhysicsMaterial" id=1]
 rough = true
@@ -15,3 +17,5 @@ angular_damp = 5.0
 
 [node name="CollisionShape" type="CollisionShape" parent="Ball"]
 shape = SubResource( 2 )
+
+[node name="Car" parent="." instance=ExtResource( 1 )]
